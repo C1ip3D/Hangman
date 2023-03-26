@@ -1,7 +1,7 @@
 import random
 
 
-words = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "testimony", "sesquipedalian", "phenomenon", "onomatopoeia", "supercalifragilisticexpialidocious", "worcestershire"]
+words = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "testimony", "sesquipedalian", "phenomenon", "onomatopoeia"]
 
 
 word = random.choice(words)
@@ -10,7 +10,7 @@ word = random.choice(words)
 hidden_word = ["_"] * len(word)
 
 
-guesses_left = 6
+guesses_left = 4
 
 
 while guesses_left > 0 and "_" in hidden_word:
