@@ -1,7 +1,7 @@
 import random
 
 
-words = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "testimony", "sesquipedalian", "phenomenon", "onomatopoeia"]
+words = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "testimony", "sesquipedalian", "phenomenon", "onomatopoeia", 'imbe', 'jackfruit', 'kiwi', 'lemon', 'mango', 'nectarine', 'orange', 'pear', 'quince', 'raspberry', 'strawberry', 'tangerine']
 
 
 word = random.choice(words)
